@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/t0shiii/node-dota2-bot#readme",
   "dependencies": {
-    "dota2": "^6.2.0",
-    "steam": "^1.4.0",
+    "dota2": "^7.0.3",
+    "steam": "^1.4.1",
     "winston": "^3.3.3"
   },
   "devDependencies": {
