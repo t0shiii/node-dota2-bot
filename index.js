@@ -8,10 +8,10 @@ const steam = require('steam'),
     queue   = require('./queue')
 
 const logger = winston.createLogger({
-    level: 'info',
+    level: 'debug',
     format: winston.format.json(),
     defaultMeta: {
-        service: 'user-service'
+        service: 'dota2-bot'
     },
     transports: [
         new winston.transports.File({
