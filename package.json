@@ -1,6 +1,6 @@
 {
   "name": "node-dota2-bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A wrapper around the dota2 library forked from Crazy-Duck's original bot.",
   "main": "index.js",
   "scripts": {
