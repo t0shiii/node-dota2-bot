@@ -8,8 +8,8 @@ connects to Steam and the Dota2 GC. As soon as all connections are made,
 the queue is started. From then on, all scheduled functions will be executed as 
 soon as the GC is available.
 
-[![npm](https://img.shields.io/npm/v/node-dota2-bot.svg?maxAge=2592000&style=flat-square)](https://www.npmjs.com/package/node-dota2-bot "Current version on npm")
-[![Dependency Status](https://img.shields.io/david/t0shiii/node-dota2-bot.svg?maxAge=2592000&style=flat-square)](https://david-dm.org/t0shiii/node-dota2-bot "Check this project's dependencies")
+[![npm](https://img.shields.io/npm/v/node-dota2-bot)](https://www.npmjs.com/package/node-dota2-bot "Current version on npm")
+[![Dependency Status](https://img.shields.io/david/t0shiii/node-dota2-bot)](https://david-dm.org/t0shiii/node-dota2-bot "Check this project's dependencies")
 
 ## Usage
 ### Installation
