@@ -19,7 +19,7 @@ const logger = winston.createLogger({
 
 // Default backoff is 10s
 const DEFAULT_BACKOFF = 10000
-const DEFAULT_RATELIMIT = 1
+const DEFAULT_RATELIMIT = 100
 const STATE = {
     IDLE:    'idle',
     RUNNING: 'running',

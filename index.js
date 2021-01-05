@@ -63,7 +63,7 @@ module.exports = class DotaBot {
                 self.steamUser.logOn({'account_name': self._logonDetails.account_name, 'password': self._logonDetails.password})
             },
             onSteamLogOn    = function onSteamLogOn(logonResp){
-                if (logonResp.eresult === steam.EResult.k_EResultOK) {
+                if (logonResp.eresult === steam.EResult.OK) {
                 // Set status to online
                     self.steamFriends.setPersonaState(steam.EPersonaState.Online)
                     // Set nickname
@@ -199,6 +199,5 @@ module.exports = class DotaBot {
     schedule(fn) {
         this._queue.schedule(fn)
     }
-
     
 }
